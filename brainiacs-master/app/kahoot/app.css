@@ -1,0 +1,39 @@
+/* App.css */
+
+.App {
+    text-align: center;
+    background-color: #c8ebff;
+    margin-top: 20px;
+  }
+  
+  .options {
+    margin-top: 10px;
+  }
+  
+  .option-button {
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  
+  .option-red {
+    background-color: #ff6347;
+  }
+  
+  .option-blue {
+    background-color: #1e90ff;
+  }
+  
+  .option-yellow {
+    background-color: #ffd700;
+  }
+  
+  .option-green {
+    background-color: #32cd32;
+  }
+  
+  .option-button.selected {
+    opacity: 0.8;
+  }
